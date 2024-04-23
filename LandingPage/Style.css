@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Heebo&family=Lexend+Deca:wght@700&family=Merienda:wght@600&family=Pacifico&family=Poppins:wght@300&family=Quicksand:wght@400;500;700&family=Roboto&family=Roboto+Condensed&family=Rubik:wght@500&family=Staatliches&family=Ubuntu&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body,
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.header {
+    width: 100%;
+    height: 80vh;
+    background-image: url("./header.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header>.bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header>.bar>.bar-logo {
+    margin-top: 20px;
+    color: rgb(171, 0, 0);
+    font-family: 'Pacifico', sans-serif;
+    font-size: 40px;
+    position: absolute;
+    right: 30px;
+    background-color: rgb(255, 251, 216);
+    border: 1px solid rgba(0, 0, 0, 0.436);
+    padding: 0px 10px;
+    box-shadow: 0.5px 0.5px 10px rgba(0, 0, 0, 0.557);
+    border-radius: 25px 25px 0px 25px;
+}
+
+
+.header>.bar>.bar-links {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    font-size: 35px;
+    font-family: "Staatliches", sans-serif;
+    font-weight: 500;
+    padding: 20px 10px;
+
+}
+
+.header>.bar>.bar-links>.link {
+    margin-right: 70px;
+    background-color: rgb(253, 252, 201);
+    padding: 2px 15px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px black;
+    text-decoration: none;
+}
+
+.header .buttons {
+    text-decoration: none;
+    color: rgb(210, 1, 1);
+}
+
+.header .bar-links>.link:hover {
+    background-color: whitesmoke;
+    color: rgb(101, 0, 0);
+    box-shadow: 1px 2px 15px black;
+    cursor: pointer;
+}
+
+.header-text {
+    width: 800px;
+    margin: 120px 430px;
+    font-family: "Pacifico", sans-serif;
+    font-size: 80px;
+    color: rgb(95, 0, 0);
+}
+
+.aboutus-content {
+    background-color: rgb(255, 240, 166);
+    height: auto;
+    padding: 100px 70px;
+    display: flex;
+}
+
+.aboutus-content>.photo {
+    width: 500px;
+    height: 500px;
+    background-image: url(Burger.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 100px;
+    box-shadow: 1px 1px 30px black;
+}
+
+.aboutus-content>.content>.text>.heading {
+    font-family: "Pacifico", sans-serif;
+    color: rgb(141, 0, 0);
+    font-size: 60px;
+    margin-left: 100px;
+}
+
+.aboutus-content>.content>.text>.info {
+    font-family: "Quicksand", sans-serif;
+    width: 900px;
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 100px;
+}
+
+.aboutus-content>.content>.feature {
+    display: grid;
+    gap: 18px;
+    margin: 50px auto auto 100px;
+    width: 750px;
+    height: 40%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.aboutus-content .feature-box {
+    background-color: rgb(251, 228, 114);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    border-radius: 100px 100px 100px 0px;
+
+}
+
+
+.feature-box:hover {
+    background-color: whitesmoke;
+    color: rgb(101, 0, 0);
+    cursor: pointer;
+}
+
+.meals {
+    background-color: rgb(255, 240, 166);
+    height: auto;
+    padding: 100px 70px;
+}
+
+.meals>.meal-title {
+    font-family: "Pacifico", sans-serif;
+    color: rgb(141, 0, 0);
+    font-size: 60px;
+}
+
+.meals>.meal-photo {
+    margin: 50px auto 40px auto;
+    display: grid;
+    display: flex;
+    height: 400px;
+    width: 1300px;
+}
+
+.meals .dish {
+    height: 100%;
+    width: 480px;
+    margin-right: 25px;
+    border-radius: 60px;
+    box-shadow: 2px 2px 10px black;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.meals .meal1 {
+    background-image: url(1.jpg);
+}
+
+.meals .meal2 {
+    background-image: url(2.jpg);
+}
+
+.meals .meal3 {
+    background-image: url(3.jpg);
+}
+
+.meals .meal4 {
+    background-image: url(4.jpg);
+
+}
+
+.meals .ordernow {
+    font-family: "Pacifico", sans-serif;
+    color: rgb(141, 0, 0);
+    font-size: 40px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.dish:hover {
+    box-shadow: 2px 2px 20px black;
+    cursor: pointer;
+}
+
+.galary-content {
+    background-color: rgb(252, 229, 111);
+    height: auto;
+    padding: 60px 70px;
+}
+
+.galary-content>.galary-title {
+    font-family: "Pacifico", sans-serif;
+    color: rgb(141, 0, 0);
+    font-size: 60px;
+}
+
+.galary-content .photos {
+    margin: 20px auto;
+    width: 1400px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 10px;
+}
+
+.galary-content .c1 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
+
+.galary-content .c2 {
+    display: grid;
+    grid-template-rows: 1.7fr 1fr;
+    gap: 10px;
+}
+
+.galary-content .c3 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
+
+
+.galary-content .png {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 1px 1px 4px black;
+    border-radius: 20px;
+}
+
+.galary-content .img1 {
+    background-image: url(img1.jpg);
+}
+
+.galary-content .img2 {
+    background-image: url(img2.jpg);
+}
+
+.galary-content .img3 {
+    background-image: url(img3.jpg);
+}
+
+.galary-content .img4 {
+    background-image: url(img4.jpg);
+}
+
+.galary-content .img5 {
+    background-image: url(img5.jpg);
+}
+
+.galary-content .img6 {
+    background-image: url(img6.jpg);
+}
+
+.contactus-content {
+    height: auto;
+    background-color: rgb(254, 225, 79);
+    display: flex;
+    padding: 70px 70px;
+}
+
+.contactus-content .title {
+    font-family: "Pacifico", sans-serif;
+    color: rgb(141, 0, 0);
+    font-size: 60px;
+}
+
+.contactus-content .info {
+    font-family: "Quicksand", sans-serif;
+    margin-top: 70px;
+    width: 850px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.contactus-content .img-part{
+    margin: 30px;
+    width: 700px;
+    height: 400px;
+    background-image: url(Pizza.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0px 2px 15px black;
+    border-radius: 20px;
+}
+.footer{
+    padding: 5px;
+    font-family: "Ubuntu",sans-serif;
+    color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.818);
+}

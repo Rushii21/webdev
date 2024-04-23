@@ -1,0 +1,505 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Heebo&family=Lexend+Deca:wght@700&family=Merienda:wght@600&family=Pacifico&family=Poppins:wght@300&family=Quicksand:wght@400;500;700&family=Rubik:wght@500&family=Ubuntu&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+body, * {
+    margin: 0;
+    padding: 0;
+}
+
+/* ------------------------------------------ HEADER -------------------------------- */
+.header {
+    width: 100%;
+    height: 90vh;
+    background-color: rgb(195, 154, 179);
+}
+
+.logo > a {
+    color: black;
+    text-decoration: none;
+}
+
+.logo > a > p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    position: relative;
+    padding: 10px 25px;
+    border: 2px solid black;
+    width: fit-content;
+    border-radius: 150px;
+    top: 30px;
+    left: 20px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 1px 1px 1px black;
+}
+
+.logo > a > p:hover
+{
+    cursor: pointer;
+    background-color: rgb(234, 234, 218);
+    box-shadow: 2px 2px 2px 2px rgb(88, 88, 88);
+    
+}
+
+.header >.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-text{
+    font-family: 'Pacifico',sans-serif;
+    color: black;
+    font-size: 80px;
+    width: 400px;
+}
+
+.header-img {
+    width: 500px;
+    height: 500px;
+    margin-left: 200px;
+    display: grid;
+    gap: 20px;
+    padding: 10px;
+}
+
+.header-img .section1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-img > .section1 > .img11 {
+    width: 60%;
+    height: 100%;
+    display: flex;
+}
+
+.header-img .semi1, .header-img .semi2{
+    width: 50%;
+    height: 100%;
+    background-color: whitesmoke;
+}
+
+.header-img .semi1 {
+    border-radius: 0px 0px 0px 100%;
+}
+
+.header-img .semi2 {
+    border-radius: 0px 100% 0px 0px;
+}
+
+.header-img .img12 {
+    background-color: antiquewhite;
+    width: 30%;
+    height: 100%;
+    border-radius: 100% 100% 0 100%;
+}
+
+
+.header-img .section2 {
+    display: flex;
+    justify-content: space-between;
+}
+.header-img .img21{
+    background-color: rgb(253, 219, 255);
+    width: 30%;
+    height: 95%;
+    border-radius:0 100% 100% 100% ;
+}
+.header-img .img22{
+    background-color: rgb(216, 254, 231);
+    width: 30%;
+    height: 95%;
+}
+.header-img .img23{
+    background-color: rgb(255, 202, 188);
+    width: 30%;
+    height: 95%;
+    border-radius:0 0 0 100% ;
+}
+
+.header-img .section3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-img .img31{
+    background-color: whitesmoke;
+    width: 30%;
+    height: 95%;
+    border-radius:100% 100% 100% 100% ;
+}
+.header-img .img32{
+    background-color: rgb(43, 43, 43);
+    width: 67%;
+    height: 95%;
+    border-radius:150px 150px 0% 150px ;
+}
+
+.prj> a>p{
+    position: relative;
+    left: 20px;
+    top: 20px;
+    height: fit-content;
+    width: fit-content;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    padding: 10px 25px;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 150px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 1.5px 1.5px 1.5px rgb(0, 0, 0);
+    
+}
+.buttons{
+    display: flex;
+}
+.prj > a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.resume> a>p{
+    position: relative;
+    left: 30px;
+    top: 20px;
+    height: fit-content;
+    width: fit-content;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    padding: 10px 25px;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 150px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 1.5px 1.5px 1.5px rgb(0, 0, 0);
+    
+}
+.resume > a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.prj >a>p:hover{
+    cursor: pointer;
+    background-color: rgb(234, 234, 218);
+    color: black;
+    box-shadow: 3px 3px 3px black;
+    
+}
+.resume >a>p:hover{
+    cursor: pointer;
+    background-color: rgb(234, 234, 218);
+    color: black;
+    box-shadow: 3px 3px 3px black;
+    
+}
+
+/* ------------------------------------------ ABOUT ME -------------------------------- */
+.aboutme{
+    width: 100%;
+    height: 90vh;
+    background-color: black;
+}
+
+.aboutme > .title {
+    display: flex;
+}
+.aboutme >.title >p {
+    position: relative;
+    top: 15px;
+    
+}
+
+/* ALL TITLES */
+.title{
+    font-family: 'Pacifico',sans-serif;
+    margin-left : 20px;
+    font-size: 70px;
+    color: whitesmoke;
+}
+/* --------------- */
+
+
+
+.aboutme> .content1{
+    position: relative;
+    top: 25px;
+    display:flex;
+}
+.aboutme> .content1> .rside{
+    position: relative;
+    top: 10px;
+    left:30px;
+    width: 45%;
+    height: 50vh;
+    font-size: 35px;
+    font-family: 'Quicksand',sans-serif;
+    font-weight: 400;
+    color: rgb(195, 154, 179);
+}
+.aboutme> .content1> .lside{
+    position: relative;
+    margin-left: 60px;
+    top: 10px;
+    left:40px;
+    width: 45%;
+    height: 50vh;
+    font-size: 35px;
+    font-family: 'Quicksand',sans-serif;
+    font-weight: 400;
+    color: rgb(195, 154, 179);
+}
+
+/* --------------------------------------- SKILLS ---------------------------------------------- */
+
+.skills{
+    width: 100%;
+    height: 70vh;
+    background-color: black;
+}
+
+
+.skills >.skill{
+    margin-top: 90px;
+    margin-left: 100px;
+    width: 1400px;
+    height: 30vh;
+    gap: 15px;
+    display: grid;
+}
+
+.skill>.r1{
+    display: flex;
+    
+}
+.skill>.r2{
+    display: flex;
+}
+
+.skill-content {
+    background-color: rgb(46, 46, 46);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20px;
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 50px;
+    color: whitesmoke;
+}
+
+.skill>.r1>.cpp{
+    font-family: 'Ubuntu',sans-serif;
+    width: 9%;
+    height: 100%;
+    border-radius: 0% 100% 100% 100%;
+    
+}
+.skill>.r1>.htmll{
+    width: 30%;
+    height: 100%;
+    margin-left: 13px;
+    border-radius: 150px 170px 0 150px;
+    
+    
+}
+.skill>.r1>.css{
+    width: 20%;
+    height: 100%;
+    margin-left: 15px;
+    border-radius: 150px 150px 150px 0px;
+    
+    
+    
+}
+.skill>.r1>.java{
+    width: 25%;
+    height: 100%;
+    margin-left: 15px;
+    border-radius: 150px 170px 0px 150px;
+}
+.skill>.r2>.sql{
+    width: 20%;
+    height: 100%;
+    border-radius: 150px 170px 0px 150px;
+}
+.skill>.r2>.js{
+    width: 28.5%;
+    height: 100%;
+    margin-left: 15px;
+    border-radius: 200px 170px 150px 0px;
+    
+}
+.skill>.r2>.tableau{
+    width: 20%;
+    height: 100%;
+    margin-left: 15px;
+    border-radius: 0px 170px 150px 170px;
+    
+}
+.skill>.r2>.py{
+    width: 15%;
+    height: 100%;
+    margin-left: 17px;
+    border-radius: 150px 0px 150px 150px;
+} 
+
+.skill-content:hover{
+    background-color: whitesmoke;
+    color: black;
+    box-shadow:2px 2px 3px white;
+}
+
+
+.resumee{
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(195, 154, 179);
+    display: flex;
+    
+}
+.resumee >.content>p{
+    position: relative;
+    top: 140px;
+    left: 20px;
+    width: 1250px;
+    height: auto;
+    color: black;
+    font-family: 'Quicksand',sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.resumee >.download>a{
+    text-decoration: none;
+    font-family: 'Ubuntu',sans-serif;
+    color: black;
+}
+
+.resumee >.download >a>p{
+    width: 250px;
+    height:70px;
+    position: relative;
+    top: 145px;
+    left: 100px;
+    border-radius: 150px;
+    background-color: rgb(255, 255, 255);
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 1px black;
+    border: 2px solid black;
+}
+.resumee >.download >a>p:hover{
+    cursor: pointer;
+    background-color: rgb(234, 234, 218);
+    color: rgb(0, 0, 0);
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0);
+    transition: all 0.2s ease-in-out;
+}
+
+/* -------------------  PROJECTS  ------------------------------------------------------------------ */
+
+
+.project {
+    background-color: black;
+    padding: 30px 0px;
+    height: auto;
+    color: whitesmoke;
+}
+
+.project > .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    margin: 25px auto;
+}
+
+.project > .content > .pj {
+    width: 30%;
+    height: 50vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(21, 21, 21);
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.project > .content > .pj:hover{
+    background-color: rgb(188, 188, 188);
+    color: black;
+}
+
+.prj1 {
+    border-radius: 0px 100px 100px 100px;
+}
+
+.prj2 {
+    border-radius: 100px 100px 100px 100px;
+}
+
+.prj3 {
+    border-radius: 100px 100px 0px 100px;
+}
+
+.contact-me{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    padding: 70px 0px;
+}
+
+.contact-me .info{
+   margin-top: 50px;
+   margin-left: 20px;
+    width: 1000px;
+    background-color: rgb(0, 0, 0);
+    font-family: "Quicksand",sans-serif;
+    font-size: 30px;
+    color: rgb(195, 154, 179);
+    font-weight: 500;
+}
+.icons i{
+    margin: 40px 20px;
+    font-size: 50px;
+}
+.icons a{
+    text-decoration: none;
+    color: rgb(195, 154, 179);;
+}
+
+.footer{
+    padding: 10px;
+    font-family: "Ubuntu",sans-serif;
+    color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.818);
+}
+.contact-me .photo{
+    margin-left: 70px;
+    height: 500px;
+    width: 500px;
+    border-radius: 40px;
+    background-image: url(Photooo.jpeg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
